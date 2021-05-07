@@ -1,13 +1,14 @@
 .box-container {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
 }
 
 .box {
     display: block;
-    width: 10vw;
-    min-width: 20vw;
-    height: 10vh;
+    width: 12vw;
+    min-width: 5vw;
+    /*height: 10vh;*/
     margin: 2vh 2vw;
     padding: 1vh 1vw;
     color: #fff;
@@ -27,4 +28,8 @@
 
 .box-4 {
     background-color: darkslateblue;
+}
+
+.box-5 {
+    background-color: darkgoldenrod;
 }
